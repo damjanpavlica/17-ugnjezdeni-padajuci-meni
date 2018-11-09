@@ -1,0 +1,25 @@
+ul, li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex > li {
+    width: 20%;
+}
